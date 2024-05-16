@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://lgj6i64jeso1"]
+
+[ext_resource type="Script" path="res://scenes/TypingSpeedTest.gd" id="1_t7c6n"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 239.0
+offset_top = 130.0
+offset_right = 744.0
+offset_bottom = 356.0
+script = ExtResource("1_t7c6n")
+
+[node name="LabelToType" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 27.0
+offset_right = 373.0
+offset_bottom = 50.0
+
+[node name="LineEdit" type="LineEdit" parent="Control"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 63.0
+offset_right = 375.0
+offset_bottom = 121.0
+
+[node name="ResultLabel" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 123.0
+offset_right = 82.0
+offset_bottom = 177.0
